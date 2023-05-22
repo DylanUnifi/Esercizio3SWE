@@ -7,13 +7,12 @@ public class ConcreteStrategy2 implements Strategy {
 		this.name = name;
 	}
 	
-	public String getNane() {
+	public String getName() {
 		return name;
 	}
 	@Override
 	public String op() {
-		System.out.println("Eseguo op() su" + this.name);
-		return name;
+		return this.getName();
 	}
 
 }

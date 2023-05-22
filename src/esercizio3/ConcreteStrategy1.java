@@ -9,7 +9,6 @@ public class ConcreteStrategy1 implements Strategy {
 
 	@Override
 	public String op() {
-		System.out.println("Eseguo op() su" + this.name);
 		return this.getName();
 	}
 	
